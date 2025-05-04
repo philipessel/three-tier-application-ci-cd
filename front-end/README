@@ -1,5 +1,5 @@
 Run command below to start the container in detached mode
-===============================================================================================
+================================================================================================
 docker run -d -p 3000:3000 --name my-next-js-container localhost:5000/my-next-js-frontend:latest
 
 
