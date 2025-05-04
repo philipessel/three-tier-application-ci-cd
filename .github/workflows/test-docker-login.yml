@@ -1,3 +1,23 @@
+# ==========================================================================================
+# ------------------------------------------------------------------------------------------
+# test-docker-login.yml
+#
+# PURPOSE:
+# This GitHub Actions workflow is used to verify that the Docker Hub credentials 
+# stored in the repository secrets (DOCKER_USERNAME and DOCKER_PASSWORD) 
+# are correctly configured.
+#
+# It performs the following:
+# - Checks out the code
+# - Logs in to Docker Hub using the provided secrets
+# - Runs `docker info` to confirm successful authentication
+#
+# This is useful for testing Docker Hub access independently before running 
+# full CI/CD workflows that depend on Docker builds and pushes.
+
+# ------------------------------------------------------------------------------------------
+# ==========================================================================================
+
 name: Test Docker Login
 
 on:
