@@ -1,5 +1,3 @@
-
-
 name: Build, Push, and Deploy Frontend
 
 on:
