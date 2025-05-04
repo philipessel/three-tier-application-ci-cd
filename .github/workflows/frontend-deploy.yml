@@ -5,19 +5,19 @@ on:
     branches:
       - main
     paths:
-      - 'frontend/**'
+      - 'front-end/**'
   pull_request:
     branches:
       - main
     paths:
-      - 'frontend/**'
+      - 'front-end/**'
 
 jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: frontend  # 👈 Important: run commands inside frontend/
+        working-directory: front-end  # 👈 Important: run commands inside frontend/
     steps:
       - name: Check out the repository
         uses: actions/checkout@v2
