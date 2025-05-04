@@ -46,7 +46,7 @@ jobs:
     needs: build
     defaults:
       run:
-        working-directory: frontend
+        working-directory: front-end
     steps:
       - name: Check out the repository
         uses: actions/checkout@v2
