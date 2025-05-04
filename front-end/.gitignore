@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Environment variables
+.env*
+!.env.example  # Keep this if you have an example env file
+
+# Logs & Debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+vercel.json
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files that shouldn't be copied to the image
+.dockerignore
+
+# Ignore large files and unnecessary assets
+public/issue-matrix.xlsx
+public/sop.pdf
+
+# Ignore fonts (if they are not necessary for version control)
+pages/fonts/
+
+# Ignore images (if they are not necessary for version control)
+public/images/
+

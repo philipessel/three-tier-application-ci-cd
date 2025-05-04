@@ -1,0 +1,15 @@
+# Ignore sensitive and unnecessary files
+.env
+.git/
+.gitignore
+.idea/
+.vscode/
+
+# Ignore dependencies (we will install them inside the container)
+node_modules/
+vendor/
+
+# Ignore Laravel storage & cache files
+storage/logs/
+storage/framework/*
+bootstrap/cache/
